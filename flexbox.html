@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prof Chico">
+    <meta name="description" content="Site com estrutura em flexbox">
+    <meta name="keywords" content="CSS3, HTML5, Flexbox, FIAP">
+    <link rel="stylesheet" href="style.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <!-- <div.container> -->
+        <div class="container">
+            <nav class="menu">
+                <div class="logo">
+                    <ul>
+                        <li><a href="#"></a>Item 1</li>
+                        <li><a href="#"></a>Item 2</li>
+                        <li><a href="#"></a>Item 3</li>
+                    </ul>
+                </div>
+            <!-- div.search-bar>input+button -->
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button type="submit">Buscar</button>
+            </div>
+            </nav>
+            <!-- div.main-container>aside+div.content-container>main+section.content-row>article*3 -->
+            <div class="main-container">
+                <aside>aside</aside>
+                <div class="content-container">
+                    <main>Conteúdo principal</main>
+                    <section class="content-row">
+                        <article id="content1">C1</article>
+                        <article id="content2">C2</article>
+                        <article id="content3">C3</article>
+                    </section>
+                </div>
+            </div>
+            <footer>Footer</footer>
+        </div>
+</body>
+</html>
